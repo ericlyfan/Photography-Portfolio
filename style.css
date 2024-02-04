@@ -262,6 +262,11 @@ section {
 
 /* About Me/Experience Section */
 
+#experience {
+    height: auto;
+    margin-bottom: 6rem;
+}
+
 .details-containers {
     margin-bottom: 2rem;
     padding: 1.5rem;
@@ -304,13 +309,17 @@ article .icon {
     cursor: default
 }
 
+/* Photos Section */
+#photo_gallery {
+    height: auto;
+}
+
 .horizontal-line {
     width: 60%;
     margin: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
-/* Photos Section */
 .section__title {
     text-align: center;
     font-size: 1.75rem;
