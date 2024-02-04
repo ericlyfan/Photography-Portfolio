@@ -1,3 +1,4 @@
+/* Large-sized Screens */
 @media screen and (max-width: 3000px) {
     #profile {
       height: 83vh;
@@ -31,6 +32,7 @@
     }
   }
   
+  /* Medium-sized Screens */
   @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
@@ -64,6 +66,7 @@
       width: 275px;
       height: 275px;
       margin: 0 auto 2rem;
+      justify-content: center;
     }
 
     .about-container,
@@ -77,6 +80,7 @@
       }
   }
   
+  /* Mobile Screens */
   @media screen and (max-width: 600px) {
     #contact {
       height: 40vh;
