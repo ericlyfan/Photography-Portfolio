@@ -6,6 +6,7 @@
     <title>Photography Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.0"></script>
 </head>
 <body>
     <nav id="desktop-nav">
@@ -46,9 +47,15 @@
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Eric Fan</h1>
-            <p class="section__text__p2">Photographer</p>
-            <p class="section__text__p3">Software Engineer</p>
+            <h1 class="typing-container-name">
+                <span class="typing-name"></span>
+            </h1>
+            <p class="typing-container-photographer">
+                <span class="typing-photographer"></span>
+            </p>
+            <p class="typing-container-swe">
+                <span class="typing-swe"></span>
+            </p>
             <div class ="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/EricFanResume.pdf')">
                     Download CV
@@ -143,17 +150,20 @@
 
     <section id="photo_gallery">
         <p class="section__text__p2">Welcome To My</p>
-        <h1 class="title">Photo Gallery</h1>
+        <h1 class="title">Travel Diary</h1>
         <div class="horizontal-line" style="border: 2px solid rgb(130, 130, 130);"></div>
     </section>
 
     <section id="korea">
         <h2 class="section__title">Korea</h2>
         <p class="text-container">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-            eu fugiat nulla pariatur.
+            May 2023 -  Korea was a captivating and enriching experience. I was given the opportunity to explore the busy
+            and vibrant streets of Seoul, bustling with energy and the latest trends in fashion and the latest popular 
+            Korean trends. Venturing through the famous markets of  Myeongdong and Gwangjang left me savoring the Korean 
+            street food specialties. I also had the chance to travel further out, towards the beautiful countryside dotted 
+            with historical temples, palaces, allowing me to experience the cultural and historical side of Korea. Overall, 
+            this beautiful country provided a harmonious blend of modernity, history, culture, cuisine, and nature, leaving 
+            me with lasting memories and a desperate urge to visit again. 
         </p>
         <div class="photo__grid">
             <div class="photo__column">
@@ -183,10 +193,13 @@
     <section id="japan">
         <h2 class="section__title">Japan</h2>
         <p class="text-container">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-            eu fugiat nulla pariatur.
+            July 2023 - Japan, where age-old customs and contemporary life blend seamlessly. My journey was marked by an 
+            array of pilgrimages to ancient shrines and temples. This nation, celebrated for its impressive technological 
+            advancements, also boasts an abundance of natural beauty. During the day, I was enveloped by the dynamic 
+            atmosphere of Japan's bustling urban centers, with countless soaring skyscrapers and the lively pulse of metropolitans
+            such as Tokyo. By night, the urban landscape transformed, illuminated by a constellation of lights, lanterns 
+            and festive decorations, creating an inviting glow that beckoned for leisurely exploration. Experiencing Japan's 
+            landscape, which fluidly navigates between urban intensity and rural peace, was an unforgettable journey of discovery.
         </p>
         <div class="photo__grid">
             <div class="photo__column"> 
@@ -236,6 +249,10 @@
             </div>
         </div>
     </section>
+
+    <div id="photo-overlay" onclick="closeExpandedPhoto(event)">
+        <img id="expanded-photo" src="">
+    </div>
 
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
