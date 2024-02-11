@@ -85,6 +85,13 @@
     #contact {
       height: 40vh;
     }
+    .photo__grid {
+      gap: 0.3rem;
+  }
+  
+  .photo__column {
+      gap: 0.3rem; 
+  }
 
     .photo__column .photo:hover {
       transform: none;
@@ -93,7 +100,7 @@
 
   .section__pfp-container .profile__pic:hover {
     transform: none;
-}
+  }
 
     #profile {
       height: auto;
