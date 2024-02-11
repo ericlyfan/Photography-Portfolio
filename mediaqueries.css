@@ -86,6 +86,11 @@
       height: 40vh;
     }
 
+    .photo__column .photo:hover {
+      transform: none;
+      cursor: pointer;
+  }
+
     #profile {
       height: auto;
       margin-bottom: 0;
