@@ -88,8 +88,12 @@
 
     .photo__column .photo:hover {
       transform: none;
-      cursor: pointer;
+      cursor: default;
   }
+
+  .section__pfp-container .profile__pic:hover {
+    transform: none;
+}
 
     #profile {
       height: auto;
