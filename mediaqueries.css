@@ -148,6 +148,10 @@
       font-size: 0.9rem;
     }
 
+    #experience .text-container {
+      font-size: 1rem;
+  }
+
     .photo__grid {
         margin-bottom: 0;
     }
